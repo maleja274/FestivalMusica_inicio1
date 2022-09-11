@@ -367,6 +367,13 @@ img {
 .header {
   background-color: #4CB8B3;
 }
+@media (min-width: 768px) {
+  .header.fijo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #333;
+  }
+}
 .header h1 {
   color: #ffffff;
   text-align: center;
@@ -626,6 +633,7 @@ picture {
   text-align: center;
   color: #ffffff;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
   .boletos .contenedor-boletos {
@@ -676,4 +684,14 @@ picture {
 .pase-footer p {
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.site-footer {
+  background-color: #F53756;
+  padding: 1rem;
+}
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
 }
